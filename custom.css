@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-family: "Source Code Pro", sans-serif;
+}
+
+h1 {
+    padding-top: 15%;
+    font-size: 3.75em;
+}
+
+p {
+    font-size: 1.60em;
+    font-weight: 800;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+}
+
