@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     height: 100%;
     text-align: center;
-    background-color: #000;
+    background-color: rebeccapurple;
     color: #fff;
     font-family: "Source Code Pro", sans-serif;
 }
@@ -12,16 +12,41 @@ h1 {
     font-size: 3.75em;
 }
 
+main p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+
 p {
     font-size: 1.60em;
     font-weight: 800;
 }
 
+.links {
+    display: inline-block;
+}
+
 li {
     list-style: none;
+    float: left;
+    padding: 0 1rem;
 }
 
 a {
     color: #fff;
 }
 
+.pachyderm {
+    height: 160px;
+    background: url('./img/elephantsvg.png');
+}
+
+.stroll {
+    animation: stroll 30s ease;
+}
+
+@keyframes stroll {
+    from {background-position: 0 0;}
+    to {background-position: -800px -3px;}
+}
